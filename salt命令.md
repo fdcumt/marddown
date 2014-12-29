@@ -38,8 +38,9 @@
 	#在minion机器上执行脚本
 	salt '192.168.100.131' cmd.script salt://cmd.sh 
 
-
-
+###salt重启
+	service salt-minion restart
+	service salt-master restart
 
 
 
